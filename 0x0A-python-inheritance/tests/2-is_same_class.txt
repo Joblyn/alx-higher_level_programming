@@ -1,0 +1,12 @@
+The ```2-is_same_class`` module
+===============================
+
+Using ``is_same_class``
+-----------------------
+
+Importing function from the module:
+    >>> is_same_class = __import__('2-is_same_class').is_same_class
+
+Testing integer
+    >>> is_same_class(1, int)
+    True
